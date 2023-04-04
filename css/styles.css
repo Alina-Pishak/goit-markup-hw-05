@@ -574,6 +574,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition: opacity var(--transition-dur-and-func), visiblity var(--transition-dur-and-func);
 }
 
 .backdrop.is-hidden {
